@@ -3,6 +3,7 @@ import image from "../assets/image.webp";
 
 const Home = () => {
   return (
+    <section id='home'>
     <div className='h-[850px] w-[100%] pt-[250px] bg-amber-500 text-white' style={{ backgroundImage:`url(${image})` , backgroundSize: "cover", backgroundPosition: "center"}}>
     <div className='w-[50%] flex flex-col items-start pl-[200px] gap-6  text-3xl'>
       <div><p>Hello Its's Me</p></div>
@@ -14,6 +15,7 @@ const Home = () => {
        </div>
     </div>
     </div>
+    </section>
   )
 }
 

@@ -5,15 +5,20 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
+import Projects from './pages/Projects'
+import Card from './components/Card'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
     <Navbar/>
     <Home/>
     <About/>
+    <Projects/>
+     <div className=" h-screen ">
+      <Card />
+    </div>
     </>
   )
 }
