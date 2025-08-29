@@ -1,4 +1,5 @@
 import React from "react";
+import projectpic from "../assets/image.webp";
 
 function Card() {
     return (
@@ -7,7 +8,7 @@ function Card() {
             <div className="w-84 h-120 border-2 bg-black/80 text-white ml-40 mt-[20px] flex  items-center flex-col gap-2 transform ">
              
                 <div className="w-[90%] h-[20%] border-1 bg-amber-600 mt-[40px]">
-                    <h>Here we will put image or vedios</h>
+                    <img src={projectpic} alt="logo" className="w-[100%] h-[100%] object-cover" />
                 </div>
             
                 <div className="w-[90%] h-[63%] border-1 bg-black/90">
