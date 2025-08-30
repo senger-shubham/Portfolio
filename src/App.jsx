@@ -7,6 +7,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import Card from './components/Card'
+import Skills from './pages/Skills'
+import Contact from './pages/Contact'
 
 function App() {
 
@@ -16,9 +18,8 @@ function App() {
     <Home/>
     <About/>
     <Projects/>
-     <div className=" h-screen ">
-      <Card />
-    </div>
+    <Skills/>
+    <Contact/>
     </>
   )
 }
