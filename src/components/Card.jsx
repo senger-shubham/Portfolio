@@ -8,7 +8,7 @@ function Card({ title, discription, image, link, tech }) {
 
             <div className="w-84 h-140  bg-[rgb(34,34,34)] text-white ml-40 mt-[20px] flex  items-center flex-col gap-2 transform ">
 
-                <div className="w-[90%] h-[20%] border-1 bg-amber-600 mt-[40px]">
+                <div className="w-[90%] h-[20%] border-1">
                     <img src={image} alt="logo" className="w-[100%] h-[100%] object-cover" />
                 </div>
 
