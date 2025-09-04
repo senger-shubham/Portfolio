@@ -7,7 +7,7 @@ function About() {
       <div className='w-[100%]  h-[800px] '>
 
         <div className='h-[150px] flex justify-center items-center flex-col'>
-          <h1 className='pt-[200px] font-bold text-5xl'>About me</h1>
+          <h1 className='pt-[200px] font-semibold text-3xl'>About me</h1>
           <h4 className='font-bold'> <span>-</span> <span className='text-red-600 text-2xl'>who i am </span><span>-</span></h4>
         </div>
 
