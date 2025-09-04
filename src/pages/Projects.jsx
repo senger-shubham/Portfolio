@@ -30,7 +30,7 @@ function Projects(){
     discription:
       "A personal portfolio website showcasing my skills, projects, and achievements. Built with ReactJS and Tailwind CSS to ensure responsiveness and a professional design.",
     image: portfolio,
-    link: "https://vercel.com/senger-shubhams-projects/portfolio",
+    link: "https://portfolio-blue-mu.vercel.app/",
     tech: "HTML, ReactJS, Tailwind CSS",
   },
   {
