@@ -15,7 +15,7 @@ function Skills() {
                     <div className="  w-[50%]  pt-15 pl-10" >
                         <ol className="list-disc list-inside text-lg text-gray-800 space-y-4">
                             <li className="border-b-4 border-gray-800 py-2 w-1/2 ">Java</li>
-                            <li className="border-b-4 border-gray-800 py-2 w-1/2 ">Ops</li>
+                            <li className="border-b-4 border-gray-800 py-2 w-1/2 ">Oops</li>
                             <li className="border-b-4 border-gray-800 py-2 w-1/2 ">DSA</li>
                             <li className="border-b-4 border-gray-800 py-2 w-1/2 ">My SQL Data Base</li>
                             <li className="border-b-4 border-gray-800 py-2 w-1/2 ">React Js</li>
